@@ -1,0 +1,44 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.home{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.pokelist{
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.pokeitem{
+    width: 30%;
+    border: solid 2px black;
+    margin-top: 30px;
+}
+
+.pokeimage{
+    width: 100%;
+}
+
+h2{
+    color: black;
+    text-decoration: none;
+}
+
+.poketypes{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.poketypes__item{
+    color: black;
+    text-decoration: none;
+}
